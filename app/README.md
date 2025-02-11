@@ -44,7 +44,7 @@ $ symfony check:requirements # To check minimal requirements for the project
 
 ### View
 
-![Symfony view](./studi-restaurant-view.png "Symfony configuration view")
+![Symfony view](studi-restaurant-view.png "Symfony configuration view")
 
 ### Installation
 
