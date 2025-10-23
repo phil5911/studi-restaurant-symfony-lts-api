@@ -8,9 +8,13 @@ services:
       - "8080:80"
     restart: unless-stopped
     environment:
-      - DATABASE_URL=mysql://user:userpass@db:3307/testdb
+      - DATABASE_URL=mysql://user:userpass@db:3306/testdb
+
+
     depends_on:
       - db
+    volumes:
+      - ./app:/var/www
 
 
   db:

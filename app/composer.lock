@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd5c94fb8111f5db025a1172fffa5d82",
+    "content-hash": "63a5f7615013846b80404bbd6bdc4d35",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -4480,16 +4480,16 @@
         },
         {
             "name": "symfony/runtime",
-            "version": "v5.4.26",
+            "version": "v5.4.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/runtime.git",
-                "reference": "4659b552bc9f2380986e3f4b7e2bd4e512470e0d"
+                "reference": "242b4d773c004fa258e1b412f3f49fc2ac78353a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/runtime/zipball/4659b552bc9f2380986e3f4b7e2bd4e512470e0d",
-                "reference": "4659b552bc9f2380986e3f4b7e2bd4e512470e0d",
+                "url": "https://api.github.com/repos/symfony/runtime/zipball/242b4d773c004fa258e1b412f3f49fc2ac78353a",
+                "reference": "242b4d773c004fa258e1b412f3f49fc2ac78353a",
                 "shasum": ""
             },
             "require": {
@@ -4540,7 +4540,7 @@
                 "runtime"
             ],
             "support": {
-                "source": "https://github.com/symfony/runtime/tree/v5.4.26"
+                "source": "https://github.com/symfony/runtime/tree/v5.4.46"
             },
             "funding": [
                 {
@@ -4556,7 +4556,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-16T16:48:57+00:00"
+            "time": "2024-11-06T08:58:41+00:00"
         },
         {
             "name": "symfony/security-bundle",
@@ -9101,6 +9101,6 @@
         "ext-ctype": "*",
         "ext-iconv": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
